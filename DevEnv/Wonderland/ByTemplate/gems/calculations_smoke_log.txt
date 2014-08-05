@@ -1,0 +1,57 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Chute AVERAGE Math Check ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/gems/chute_math
+Started
+.
+
+Finished in 97.014783 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.02 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:20  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Response AVERAGE Math Check ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/gems/response_math
+Started
+.
+
+Finished in 86.84186 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.02 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:20  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Scene AVERAGE Math Check ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/gems/scene_math
+Started
+.
+
+Finished in 86.683844 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.02 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:20  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

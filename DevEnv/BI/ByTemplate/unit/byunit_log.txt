@@ -1,0 +1,161 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_bu ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_chute_bu
+Started
+.
+
+Finished in 29.497062 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_bu_dt ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_chute_bu_dt
+Started
+.
+
+Finished in 43.642211 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.09 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_bu_filters ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_chute_bu_filters
+Started
+.
+
+Finished in 68.175978 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.06 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_bu ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_response_bu
+Started
+.
+
+Finished in 29.320681 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_bu_dt  ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_response_bu_dt
+Started
+.
+
+Finished in 32.402341 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.12 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_bu_filters ******  
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_bu ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_scene_bu
+Started
+.
+
+Finished in 29.708027 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_bu_dt ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_scene_bu_dt
+Started
+.
+
+Finished in 34.87482 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.11 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_bu_filters ******  
+Loaded suite C:/Smoke/BI/ByTemplate/unit/login_to_scene_bu_filters
+Started
+.
+
+Finished in 108.11794 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.04 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:15  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

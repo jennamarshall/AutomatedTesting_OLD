@@ -1,0 +1,132 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Chute AVERAGE Math Check ******  
+Loaded suite C:/Smoke/BI/ByTemplate/gems/chute_math
+Started
+E
+===============================================================================
+Error: test_math_check(MathCheck)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Smoke/BI/ByTemplate/gems/chute_math.rb:45:in `test_math_check'
+     42: 	@driver.find_element(:css, "div.label.ng-binding").click
+     43:     @driver.find_element(:xpath, "//div[3]/div/div/div[3]/div[6]").click
+     44: 	sleep (4)
+  => 45: 	@driver.find_element(:xpath, "//*[contains(.,'08:49')]")
+     46: 	
+     47: 	sleep (4)
+     48: 	@driver.navigate() .back();
+===============================================================================
+
+
+Finished in 65.188066 seconds.
+
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:21  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Response AVERAGE Math Check ******  
+Loaded suite C:/Smoke/BI/ByTemplate/gems/response_math
+Started
+E
+===============================================================================
+Error: test_math_check(MathCheck)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Smoke/BI/ByTemplate/gems/response_math.rb:45:in `test_math_check'
+     42: 	@driver.find_element(:css, "div.label.ng-binding").click
+     43:     @driver.find_element(:xpath, "//div[3]/div/div/div[3]/div[6]").click
+     44: 	sleep (4)
+  => 45: 	@driver.find_element(:xpath, "//*[contains(.,'21:52')]")
+     46: 	
+     47: 	sleep (4)
+     48: 	@driver.navigate() .back();
+===============================================================================
+
+
+Finished in 61.197132 seconds.
+
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:21  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Scene AVERAGE Math Check ******  
+Loaded suite C:/Smoke/BI/ByTemplate/gems/scene_math
+Started
+E
+===============================================================================
+Error: test_math_check(MathCheck)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Smoke/BI/ByTemplate/gems/scene_math.rb:45:in `test_math_check'
+     42: 	@driver.find_element(:css, "div.label.ng-binding").click
+     43:     @driver.find_element(:xpath, "//div[3]/div/div/div[3]/div[6]").click
+     44: 	sleep (4)
+  => 45: 	@driver.find_element(:xpath, "//*[contains(.,'38:57')]")
+     46: 	
+     47: 	sleep (4)
+     48: 	@driver.navigate() .back();
+===============================================================================
+
+
+Finished in 62.618275 seconds.
+
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:21  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

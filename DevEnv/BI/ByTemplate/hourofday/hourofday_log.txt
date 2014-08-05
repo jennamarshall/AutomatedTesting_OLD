@@ -1,0 +1,171 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_hod ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_chute_hod
+Started
+.
+
+Finished in 29.689854 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_hod_dt ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_chute_hod_dt
+Started
+.
+
+Finished in 39.264623 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.05 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_hod_filters ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_chute_hod_filters
+Started
+.
+
+Finished in 70.816612 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_hod ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_response_hod
+Started
+.
+
+Finished in 26.078013 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.08 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_hod_dt  ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_response_hod_dt
+Started
+.
+
+Finished in 35.589576 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.06 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_respone_hod_filters ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_response_hod_filters
+Started
+.
+
+Finished in 66.149472 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_hod ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_scene_hod
+Started
+.
+
+Finished in 24.820103 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.08 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_hod_dt ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_scene_hod_dt
+Started
+.
+
+Finished in 43.197367 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.05 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_hod_filters ******  
+Loaded suite C:/Smoke/BI/ByTemplate/hourofday/login_to_scene_hod_filters
+Started
+.
+
+Finished in 103.919838 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.02 assertions/s
+******  TEST COMPLETE  08/05/2014 @ 06:08  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

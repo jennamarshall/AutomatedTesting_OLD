@@ -1,0 +1,161 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_chute
+Started
+.
+
+Finished in 28.93588 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_dt ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_chute_dt
+Started
+.
+
+Finished in 31.28323 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.13 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_chute_filters ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_chute_filters
+Started
+.
+
+Finished in 61.866376 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.06 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_response
+Started
+.
+
+Finished in 26.861682 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_response_dt  ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_response_dt
+Started
+.
+
+Finished in 28.644023 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.14 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_respone_filters ******  
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_scene
+Started
+.
+
+Finished in 29.157904 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.07 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_dt ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_scene_dt
+Started
+.
+
+Finished in 34.496384 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.12 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: login_to_scene_filters ******  
+Loaded suite C:/Smoke/Wonderland/ByTemplate/time/login_to_scene_filters
+Started
+.
+
+Finished in 95.327997 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.04 assertions/s
+******  TEST COMPLETE  08/04/2014 @ 19:01  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

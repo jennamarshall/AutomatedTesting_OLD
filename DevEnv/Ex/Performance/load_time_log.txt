@@ -1,0 +1,2131 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Load Times ******  
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo ........................................................................................... 1>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo/  1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>echo  ****** EXECUTING TEST: Load Times ******   1>>load_time_log.txt 
+
+C:\Smoke\Ex\Performance>load_times   1>>load_time_log.txt 

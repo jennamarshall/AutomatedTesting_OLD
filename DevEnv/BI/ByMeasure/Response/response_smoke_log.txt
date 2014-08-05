@@ -1,0 +1,246 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login ******  
+Loaded suite C:/smoke/Wonderland/Response/login
+Started
+.
+
+Finished in 9.926917 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.10 tests/s, 0.20 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Navigator ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_navigator
+Started
+.
+
+Finished in 11.726751 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.09 tests/s, 0.17 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Operational ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_operational
+Started
+.
+
+Finished in 20.055403 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.05 tests/s, 0.10 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response
+Started
+.
+
+Finished in 26.032496 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.08 assertions/s
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time with Drill Throughs ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_dt
+Started
+.
+
+Finished in 27.724063 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.14 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time with Filters ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_filters
+Started
+.
+
+Finished in 62.503783 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.06 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time by Hour of Day ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_hod
+Started
+.
+
+Finished in 23.99425 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.08 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time by Hour of Day with Drill Throughs ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_hod_dt
+Started
+.
+
+Finished in 32.978204 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.06 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time by Hour of Day with Filters ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_hod_filters
+Started
+.
+
+Finished in 64.177715 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time by Unit ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_bu
+Started
+.
+
+Finished in 27.8622 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.04 tests/s, 0.07 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST: Login to Average Response Time by Unit with Drill Throughs ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_bu_dt
+Started
+.
+
+Finished in 28.846721 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.14 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+****** EXECUTING TEST: Login to Average Response Time by Unit with Filters ******  
+Loaded suite C:/smoke/Wonderland/Response/login_to_response_bu_filters
+Started
+.
+
+Finished in 65.912202 seconds.
+
+1 tests, 4 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.06 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+****** EXECUTING TEST: Math Check ******  
+Loaded suite C:/smoke/Wonderland/Response/math
+Started
+.
+
+Finished in 87.223079 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _07302014:1306  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
