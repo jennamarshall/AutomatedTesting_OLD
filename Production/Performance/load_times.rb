@@ -7,7 +7,7 @@ class LoadTimes< Test::Unit::TestCase
 
 def setup
     @driver = Selenium::WebDriver.for :chrome
-    @base_url = "https://www.esosuite.net/"
+    @base_url = "https://www.esosuite.net/EsoSuite/"
     @accept_next_alert = true
     @verification_errors = []
   end
@@ -37,8 +37,8 @@ end
     @driver.find_element(:id, "Password").clear
     @driver.find_element(:id, "Password").send_keys ".jenna99."
     @driver.find_element(:id, "AgencyLoginId").clear
-    @driver.find_element(:id, "AgencyLoginId").send_keys "eso
-    @driver.find_element(:id, "btnLogin").click
+    @driver.find_element(:id, "AgencyLoginId").send_keys "eso"
+    @driver.find_element(:css, "button.primary.gold").click
     @driver.find_element(:css, "img[alt=\"analytics\"]").click
 	
 	
@@ -56,7 +56,7 @@ end
 	puts "********************************************************************************************************"
 	puts "Load Time is measured in seconds"
 	puts "Load Time measures time from report name click to last element loads on initial report page"
-	puts "Tested for BI Agency on devdb5 environment"
+	puts "Tested for ESO Agency on production environment"
 	puts "Tests executed in Google Chrome"
 	puts "********************************************************************************************************"
 	puts " "
@@ -68,7 +68,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time']").click
 	time1 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '00:16']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time2 = Time.now.getutc
 
 	puts " "
@@ -91,7 +91,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time By Hour of Day']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time By Hour of Day']").click
 	time4 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '00:16']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time5 = Time.now.getutc
 
 	puts " "
@@ -114,7 +114,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time By Unit']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time By Unit']").click
 	time7 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '00:16']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time8 = Time.now.getutc
 
 	puts " "
@@ -137,7 +137,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Response Time']").click
 	time10 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '07:47']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time11 = Time.now.getutc
 
 	puts " "
@@ -160,7 +160,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time By Hour of Day']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Response Time By Hour of Day']").click
 	time13 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '07:41']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time14 = Time.now.getutc
 
 	puts " "
@@ -183,7 +183,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time By Unit']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Response Time By Unit']").click
 	time16 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '07:45']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time17 = Time.now.getutc
 
 	puts " "
@@ -206,7 +206,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time']").click
 	time19 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '13:51']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time20 = Time.now.getutc
 
 	puts " "
@@ -229,7 +229,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time By Hour of Day']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time By Hour of Day']").click
 	time22 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '13:52']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time23 = Time.now.getutc
 
 	puts " "
@@ -252,7 +252,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time By Unit']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time By Unit']").click
 	time25 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '13:52']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time26 = Time.now.getutc
 
 	puts " "
@@ -275,7 +275,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Turn Around Time']").click
 	time28 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '14:19']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time29 = Time.now.getutc
 
 	puts " "
@@ -298,7 +298,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Hour of Day']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Turn Around Time By Hour of Day']").click
 	time31 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '14:19']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time32 = Time.now.getutc
 
 	puts " "
@@ -321,7 +321,7 @@ end
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Unit']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Turn Around Time By Unit']").click
 	time34 = Time.now.getutc
-	wait_for { displayed?(:xpath, "//div[text() = '14:19']") }
+	wait_for { displayed?(:xpath, "//div[text() = 'MM:SS']") }
 	time35 = Time.now.getutc
 
 	puts " "
