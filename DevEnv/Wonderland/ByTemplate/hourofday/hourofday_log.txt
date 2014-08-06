@@ -1,17 +1,17 @@
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod
 Started
 .
 
-Finished in 24.968637 seconds.
+Finished in 24.785752 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -20,17 +20,17 @@ Finished in 24.968637 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod_dt ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_dt
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod_dt
 Started
 .
 
-Finished in 35.04591 seconds.
+Finished in 34.695084 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.03 tests/s, 0.06 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -39,17 +39,17 @@ Finished in 35.04591 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod_filters ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_filters
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod_filters
 Started
 .
 
-Finished in 65.251765 seconds.
+Finished in 64.896805 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.03 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -58,17 +58,17 @@ Finished in 65.251765 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_response_hod ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod
 Started
 .
 
-Finished in 25.29055 seconds.
+Finished in 25.348539 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -77,17 +77,17 @@ Finished in 25.29055 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_response_hod_dt  ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_dt
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod_dt
 Started
 .
 
-Finished in 34.678516 seconds.
+Finished in 34.374649 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.03 tests/s, 0.06 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -96,17 +96,17 @@ Finished in 34.678516 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_respone_hod_filters ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_filters
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod_filters
 Started
 .
 
-Finished in 65.816967 seconds.
+Finished in 65.36693 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.03 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -115,17 +115,17 @@ Finished in 65.816967 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod
 Started
 .
 
-Finished in 24.990175 seconds.
+Finished in 25.147286 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -134,17 +134,17 @@ Finished in 24.990175 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod_dt ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_dt
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod_dt
 Started
 .
 
-Finished in 43.087932 seconds.
+Finished in 42.339777 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.05 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -153,17 +153,17 @@ Finished in 43.087932 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod_filters ******  
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_filters
+Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod_filters
 Started
 .
 
-Finished in 103.970292 seconds.
+Finished in 102.960262 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.01 tests/s, 0.02 assertions/s
-******  TEST COMPLETE  08/05/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
  
 ...........................................................................................
  

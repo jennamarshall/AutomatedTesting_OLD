@@ -35,9 +35,9 @@ end
     @driver.find_element(:id, "UserName").clear
     @driver.find_element(:id, "UserName").send_keys "admin"
     @driver.find_element(:id, "Password").clear
-    @driver.find_element(:id, "Password").send_keys ".alice77."
+    @driver.find_element(:id, "Password").send_keys ".admin77."
     @driver.find_element(:id, "AgencyLoginId").clear
-    @driver.find_element(:id, "AgencyLoginId").send_keys "wonderland"
+    @driver.find_element(:id, "AgencyLoginId").send_keys "bi"
     @driver.find_element(:id, "btnLogin").click
     @driver.find_element(:css, "img[alt=\"analytics\"]").click
 	

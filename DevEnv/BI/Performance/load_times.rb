@@ -12,7 +12,7 @@ def setup
     @verification_errors = []
   end
   
-def wait_for(seconds=30)
+def wait_for(seconds=10)
   Selenium::WebDriver::Wait.new(:timeout => seconds).until { yield }
 end
   
