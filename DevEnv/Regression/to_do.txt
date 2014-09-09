@@ -1,0 +1,5 @@
+1. Gain control of export window
+2. Get IE working more smoothly
+3. Add testing of search
+4.  For the regression suite - incorporate the performance test into the respective report
+5.  Get clinical reports going

@@ -1,0 +1,473 @@
+...........................................................................................
+ 
+All of the following regression tests execute the following verifications:  
+1.   Initial load of the report
+2.   Initial verification of gem calculations
+3.   Changing of date range
+4.   Verification of gem calculations after date range change
+5.   Successfull addition of filters where applicable
+6.   Verification of gem calculations after filter addition
+7.   Drill through
+8.   Viewing of PDF
+9.   Opening a QM review
+10.  Threshold changes where applicable
+11.  Verification of gem calculations after threshold changes
+12.  Saving reports
+13.  Saved report functionality
+14.  Menu navigation
+15.  Adding/Removing from Favorites
+16.  Deleting saved reports
+ 
+...........................................................................................
+...........................................................................................
+ 
+ ****** EXECUTING TEST 1: Login to Navigator ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/1.login_to_navigator
+Started
+.
+
+Finished in 12.178177 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.08 tests/s, 0.08 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 2: Average Chute Time Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/2.average_chute_time
+Started
+.
+
+Finished in 41.618824 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 3: Average Chute Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/3.average_chute_time_by_unit
+Started
+.
+
+Finished in 46.622508 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 4: Average Chute Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/4.average_chute_time_by_hour_of_day
+Started
+.
+
+Finished in 45.085813 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 5: Average Response Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/5.average_response_time
+Started
+.
+
+Finished in 41.027112 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 6: Average Response Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/6.average_response_time_by_unit
+Started
+.
+
+Finished in 44.390837 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 7: Average Response Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/7.average_response_time_by_hour_of_day
+Started
+.
+
+Finished in 45.651277 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 8: Average Scene Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/8.average_scene_time
+Started
+.
+
+Finished in 41.837508 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 9: Average Scene Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/9.average_scene_time_by_unit
+Started
+.
+
+Finished in 44.093928 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 10: Average Scene Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/10.average_scene_time_by_hour_of_day
+Started
+.
+
+Finished in 43.726046 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 11: Average Turn Around Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/11.average_turn_around_time
+Started
+.
+
+Finished in 41.907278 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 12: Average Turn Around Time By Unit - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/12.average_turn_around_time_by_unit
+Started
+.
+
+Finished in 44.594104 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 13: Average Turn Around Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/13.average_turn_around_time_by_hour_of_day
+Started
+.
+
+Finished in 45.749764 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 14: Transports By Destination Name Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/14.transports_by_destination_name
+Started
+.
+
+Finished in 45.349755 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 15: Transports By Destination Type Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/15.transports_by_destination_type
+Started
+.
+
+Finished in 38.677425 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.03 tests/s, 0.03 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 16: Transports By Destination Name (Bar) Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/16.transports_by_destination_name_bar
+Started
+ 
+********************************************************************************************************
+Load Time:  Transports by Destination Name (Bar): 1.704747
+********************************************************************************************************
+ 
+ 
+.
+
+Finished in 44.44379 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 17: Transports By Destination Type (Bar) Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/17.transports_by_destination_type_bar
+Started
+.
+
+Finished in 40.07608 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 18: Performance Load Times - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/18.load_times
+Started
+ 
+********************************************************************************************************
+Load Time is measured in seconds
+Load Time measures time from report name click to last element loads on initial report page
+Tested for BI Agency on devdb5 environment
+Tests executed in Google Chrome
+********************************************************************************************************
+ 
+ 
+********************************************************************************************************
+Load Time: Average Chute Time: 2.328878
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Chute Time By Hour of Day: 2.588875
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Chute Time By Unit: 2.17365
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Response Time: 2.259675
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Response Time By Hour of Day: 2.911635
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Response Time By Unit: 2.495885
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Scene Time: 2.559043
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Scene Time By Hour of Day: 3.013702
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Scene Time By Unit: 2.70212
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Turn Around Time: 2.983422
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Turn Around Time By Hour of Day: 2.58053
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Average Turn Around Time By Unit: 2.775024
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Transports by Destination Name: 0.443224
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Transports by Destination Type: 0.601066
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Transports by Destination Name (Bar): 0.831184
+********************************************************************************************************
+ 
+ 
+ 
+********************************************************************************************************
+Load Time: Transports by Destination Type (Bar): 0.654704
+********************************************************************************************************
+ 
+ 
+.
+
+Finished in 60.657109 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09092014:0815  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

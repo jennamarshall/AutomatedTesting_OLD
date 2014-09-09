@@ -1,0 +1,617 @@
+...........................................................................................
+ 
+ ****** EXECUTING TEST 1: Login to Navigator ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/1.login_to_navigator
+Started
+.
+
+Finished in 7.365778 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.14 tests/s, 0.14 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 2: Average Chute Time Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/2.average_chute_time
+Started
+.
+
+Finished in 59.538844 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 3: Average Chute Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/3.average_chute_time_by_unit
+Started
+.
+
+Finished in 60.522176 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 4: Average Chute Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/4.average_chute_time_by_hour_of_day
+Started
+.
+
+Finished in 62.701894 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 5: Average Response Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/5.average_response_time
+Started
+E
+===============================================================================
+Error: test_login_to_Response(LoginToResponse)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '69%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/5.average_response_time.rb:19:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/5.average_response_time.rb:177:in `test_login_to_Response'
+     174: 	@driver.find_elements(:xpath, "//button")[-1].click
+     175: 
+     176: 	wait_for { displayed?(:xpath, "//div[text() = '06:44']") }
+  => 177: 	wait_for { displayed?(:xpath, "//div[text() = '69%']") }
+     178: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '965']") }
+     180: 	
+===============================================================================
+
+
+Finished in 86.742456 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 6: Average Response Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/6.average_response_time_by_unit
+Started
+E
+===============================================================================
+Error: test_login_to_Response_by_unit(LoginToResponseByUnit)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '69%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/6.average_response_time_by_unit.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/6.average_response_time_by_unit.rb:180:in `test_login_to_Response_by_unit'
+     177: 	@driver.find_elements(:xpath, "//button")[-1].click
+     178: 
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '06:44']") }
+  => 180: 	wait_for { displayed?(:xpath, "//div[text() = '69%']") }
+     181: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     182: 	wait_for { displayed?(:xpath, "//div[text() = '965']") }
+     183: 	
+===============================================================================
+
+
+Finished in 80.060902 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 7: Average Response Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/7.average_response_time_by_hour_of_day
+Started
+.
+
+Finished in 60.846443 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 8: Average Scene Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/8.average_scene_time
+Started
+E
+===============================================================================
+Error: test_login_to_Scene(LoginToScene)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '82%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/8.average_scene_time.rb:19:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/8.average_scene_time.rb:177:in `test_login_to_Scene'
+     174: 	@driver.find_elements(:xpath, "//button")[-1].click
+     175: 
+     176: 	wait_for { displayed?(:xpath, "//div[text() = '14:00']") }
+  => 177: 	wait_for { displayed?(:xpath, "//div[text() = '82%']") }
+     178: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '810']") }
+     180: 	
+===============================================================================
+
+
+Finished in 77.78564 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 9: Average Scene Time By Unit Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/9.average_scene_time_by_unit
+Started
+E
+===============================================================================
+Error: test_login_to_Scene_by_unit(LoginToSceneByUnit)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '82%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/9.average_scene_time_by_unit.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/9.average_scene_time_by_unit.rb:180:in `test_login_to_Scene_by_unit'
+     177: 	@driver.find_elements(:xpath, "//button")[-1].click
+     178: 
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '14:00']") }
+  => 180: 	wait_for { displayed?(:xpath, "//div[text() = '82%']") }
+     181: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     182: 	wait_for { displayed?(:xpath, "//div[text() = '810']") }
+     183: 	
+===============================================================================
+
+
+Finished in 79.367014 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 10: Average Scene Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/10.average_scene_time_by_hour_of_day
+Started
+E
+===============================================================================
+Error: test_login_to_Scene_by_hour_of_day(LoginToSceneByHourOfDay)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '82%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/10.average_scene_time_by_hour_of_day.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/10.average_scene_time_by_hour_of_day.rb:180:in `test_login_to_Scene_by_hour_of_day'
+     177: 	@driver.find_elements(:xpath, "//button")[-1].click
+     178: 
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '14:00']") }
+  => 180: 	wait_for { displayed?(:xpath, "//div[text() = '82%']") }
+     181: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     182: 	wait_for { displayed?(:xpath, "//div[text() = '810']") }
+     183: 	
+===============================================================================
+
+
+Finished in 81.613453 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 11: Average Turn Around Time - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/11.average_turn_around_time
+Started
+E
+===============================================================================
+Error: test_login_to_Turn_Around(LoginToTurnAround)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '86%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/11.average_turn_around_time.rb:19:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/11.average_turn_around_time.rb:177:in `test_login_to_Turn_Around'
+     174: 	@driver.find_elements(:xpath, "//button")[-1].click
+     175: 
+     176: 	wait_for { displayed?(:xpath, "//div[text() = '12:49']") }
+  => 177: 	wait_for { displayed?(:xpath, "//div[text() = '86%']") }
+     178: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     179: 	wait_for { displayed?(:xpath, "//div[text() = '809']") }
+     180: 	
+===============================================================================
+
+
+Finished in 78.899681 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 12: Average Turn Around Time By Unit - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/12.average_turn_around_time_by_unit
+Started
+E
+===============================================================================
+Error: test_login_to_Turn_Around_by_unit(LoginToTurnAroundByUnit)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds (Unable to find element with xpath == //div[text() = '86%'])
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/12.average_turn_around_time_by_unit.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/12.average_turn_around_time_by_unit.rb:179:in `test_login_to_Turn_Around_by_unit'
+     176: 	@driver.find_elements(:xpath, "//button")[-1].click
+     177: 
+     178: 	wait_for { displayed?(:xpath, "//div[text() = '12:49']") }
+  => 179: 	wait_for { displayed?(:xpath, "//div[text() = '86%']") }
+     180: 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
+     181: 	wait_for { displayed?(:xpath, "//div[text() = '809']") }
+     182: 	
+===============================================================================
+
+
+Finished in 83.987484 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 13: Average Turn Around Time By Hour of Day Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/13.average_turn_around_time_by_hour_of_day
+Started
+E
+===============================================================================
+Error: test_login_to_TurnAround_by_hour_of_day(LoginToTurnAroundByHourOfDay)
+  Selenium::WebDriver::Error::TimeOutError: timed out after 30 seconds
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:57:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/13.average_turn_around_time_by_hour_of_day.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/13.average_turn_around_time_by_hour_of_day.rb:150:in `test_login_to_TurnAround_by_hour_of_day'
+     147: 	
+     148: 	sleep (2)
+     149: 	@driver.find_element(:xpath, "//a").click
+  => 150: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     151: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     152: 	sleep (2)
+     153: 	wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time by Hour of Day -automation']") }
+===============================================================================
+
+
+Finished in 73.258835 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.01 tests/s, 0.01 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 14: Transports By Destination Name Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/14.transports_by_destination_name
+Started
+E
+===============================================================================
+Error: test_LoginToTransportsByDestinationName(LoginToTransportsByDestinationName)
+  Selenium::WebDriver::Error::NoSuchDriverError: Unexpected error launching Internet Explorer. Browser zoom level was set to 75%. It should be set to 100%
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:99:in `create_session'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:68:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/ie/bridge.rb:47:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver.rb:67:in `for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/14.transports_by_destination_name.rb:11:in `setup'
+===============================================================================
+F
+===============================================================================
+Failure:
+test_LoginToTransportsByDestinationName(LoginToTransportsByDestinationName)
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/14.transports_by_destination_name.rb:38:in `teardown'
+<[]> expected but was
+<nil>
+
+diff:
+? [] 
+? nil
+===============================================================================
+
+
+Finished in 2.24095 seconds.
+
+1 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.45 tests/s, 0.45 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 15: Transports By Destination Type Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/15.transports_by_destination_type
+Started
+E
+===============================================================================
+Error: test_LoginToTransportsByDestinationType(LoginToTransportsByDestinationType)
+  Selenium::WebDriver::Error::NoSuchDriverError: Unexpected error launching Internet Explorer. Browser zoom level was set to 75%. It should be set to 100%
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:99:in `create_session'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:68:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/ie/bridge.rb:47:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver.rb:67:in `for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/15.transports_by_destination_type.rb:11:in `setup'
+===============================================================================
+F
+===============================================================================
+Failure:
+test_LoginToTransportsByDestinationType(LoginToTransportsByDestinationType)
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/15.transports_by_destination_type.rb:38:in `teardown'
+<[]> expected but was
+<nil>
+
+diff:
+? [] 
+? nil
+===============================================================================
+
+
+Finished in 2.150088 seconds.
+
+1 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.47 tests/s, 0.47 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 16: Transports By Destination Name (Bar) Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/16.transports_by_destination_name_bar
+Started
+E
+===============================================================================
+Error: test_login_to_transports_by_destination_name_bar(LoginToTransportsByDestinationNameBar)
+  Selenium::WebDriver::Error::NoSuchDriverError: Unexpected error launching Internet Explorer. Browser zoom level was set to 75%. It should be set to 100%
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:99:in `create_session'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:68:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/ie/bridge.rb:47:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver.rb:67:in `for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/16.transports_by_destination_name_bar.rb:11:in `setup'
+===============================================================================
+F
+===============================================================================
+Failure:
+test_login_to_transports_by_destination_name_bar(LoginToTransportsByDestinationNameBar)
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/16.transports_by_destination_name_bar.rb:37:in `teardown'
+<[]> expected but was
+<nil>
+
+diff:
+? [] 
+? nil
+===============================================================================
+
+
+Finished in 2.211707 seconds.
+
+1 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.45 tests/s, 0.45 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 17: Transports By Destination Type (Bar) Report - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/17.transports_by_destination_type_bar
+Started
+E
+===============================================================================
+Error: test_login_to_transports_by_destination_Type_bar(LoginToTransportsByDestinationTypeBar)
+  Selenium::WebDriver::Error::NoSuchDriverError: Unexpected error launching Internet Explorer. Browser zoom level was set to 75%. It should be set to 100%
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:99:in `create_session'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:68:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/ie/bridge.rb:47:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver.rb:67:in `for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/17.transports_by_destination_type_bar.rb:11:in `setup'
+===============================================================================
+F
+===============================================================================
+Failure:
+test_login_to_transports_by_destination_Type_bar(LoginToTransportsByDestinationTypeBar)
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/17.transports_by_destination_type_bar.rb:37:in `teardown'
+<[]> expected but was
+<nil>
+
+diff:
+? [] 
+? nil
+===============================================================================
+
+
+Finished in 2.178128 seconds.
+
+1 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.46 tests/s, 0.46 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 
+...........................................................................................
+ 
+ ****** EXECUTING TEST 18: Performance Load Times - Regression ******  
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/18.load_times
+Started
+E
+===============================================================================
+Error: test_load_times(LoadTimes)
+  Selenium::WebDriver::Error::NoSuchDriverError: Unexpected error launching Internet Explorer. Browser zoom level was set to 75%. It should be set to 100%
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:99:in `create_session'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:68:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/ie/bridge.rb:47:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/driver.rb:35:in `for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver.rb:67:in `for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/18.load_times.rb:9:in `setup'
+===============================================================================
+F
+===============================================================================
+Failure:
+test_load_times(LoadTimes)
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/IE/18.load_times.rb:36:in `teardown'
+<[]> expected but was
+<nil>
+
+diff:
+? [] 
+? nil
+===============================================================================
+
+
+Finished in 2.204748 seconds.
+
+1 tests, 1 assertions, 1 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.45 tests/s, 0.45 assertions/s
+******  TEST COMPLETE _09082014:1223  ****** 
+ 
+...........................................................................................
+ 
+ 
+ 

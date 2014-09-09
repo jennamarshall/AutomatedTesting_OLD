@@ -1,17 +1,17 @@
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod
 Started
 .
 
-Finished in 24.785752 seconds.
+Finished in 24.981976 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -20,17 +20,42 @@ Finished in 24.785752 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod_dt ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod_dt
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_dt
 Started
-.
+E
+===============================================================================
+Error: test_login_to_chute_hod_dt(LoginToChuteHodDT)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_dt.rb:40:in `test_login_to_chute_hod_dt'
+     37:     @driver.find_element(:xpath, "//div[text() = 'Operational Reports']").click
+     38:     sleep (4)
+     39: 	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time By Hour of Day']").click
+  => 40: @driver.find_element(:xpath, "//div[@id='content']/div[2]/div/table/tbody/tr[8]/td[9]").click
+     41:     sleep (2)
+     42: @driver.find_element(:xpath, "//div[@id='detail-root']/div[3]/div/div").click
+     43:     sleep (2)
+===============================================================================
 
-Finished in 34.695084 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 56.822422 seconds.
 
-0.03 tests/s, 0.06 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.04 assertions/s
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -39,17 +64,42 @@ Finished in 34.695084 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_chute_hod_filters ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_chute_hod_filters
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_filters
 Started
-.
+E
+===============================================================================
+Error: test_login_to_chute_hod_filters(LoginToChuteHodFilters)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_chute_hod_filters.rb:43:in `test_login_to_chute_hod_filters'
+     40: 	sleep (2)
+     41:    @driver.find_element(:css, "div.icon").click
+     42: 	sleep (2)
+  => 43:     @driver.find_element(:css, "div.add-filter-row.ng-scope").click
+     44:     sleep (2)
+     45:     @driver.find_element(:css, "span.k-input").click	
+     46:     sleep (2)
+===============================================================================
 
-Finished in 64.896805 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 60.776657 seconds.
+
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
 
 0.02 tests/s, 0.03 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -58,17 +108,17 @@ Finished in 64.896805 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_response_hod ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod
 Started
 .
 
-Finished in 25.348539 seconds.
+Finished in 30.933808 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
-0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+0.03 tests/s, 0.06 assertions/s
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -77,17 +127,42 @@ Finished in 25.348539 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_response_hod_dt  ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod_dt
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_dt
 Started
-.
+E
+===============================================================================
+Error: test_login_to_response_hod_dt(LoginToResponseHodDT)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_dt.rb:40:in `test_login_to_response_hod_dt'
+     37:     @driver.find_element(:xpath, "//div[text() = 'Operational Reports']").click
+     38:     sleep (4)
+     39: 	@driver.find_element(:xpath, "//div[text() = 'Average Response Time By Hour of Day']").click
+  => 40: @driver.find_element(:xpath, "//div[@id='content']/div[2]/div/table/tbody/tr[8]/td[9]").click
+     41:     sleep (2)
+     42: @driver.find_element(:xpath, "//div[@id='detail-root']/div[3]/div/div").click
+     43:     sleep (2)
+===============================================================================
 
-Finished in 34.374649 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 56.703958 seconds.
 
-0.03 tests/s, 0.06 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.04 assertions/s
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -96,17 +171,42 @@ Finished in 34.374649 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_respone_hod_filters ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_response_hod_filters
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_filters
 Started
-.
+E
+===============================================================================
+Error: test_login_to_response_hod_filters(LoginToResponseHodFilters)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_response_hod_filters.rb:43:in `test_login_to_response_hod_filters'
+     40: 	sleep (2)
+     41:    @driver.find_element(:css, "div.icon").click
+     42: 	sleep (2)
+  => 43:     @driver.find_element(:css, "div.add-filter-row.ng-scope").click
+     44:     sleep (2)
+     45:     @driver.find_element(:css, "span.k-input").click	
+     46:     sleep (2)
+===============================================================================
 
-Finished in 65.36693 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 60.833514 seconds.
+
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
 
 0.02 tests/s, 0.03 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -115,17 +215,17 @@ Finished in 65.36693 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod
 Started
 .
 
-Finished in 25.147286 seconds.
+Finished in 25.03093 seconds.
 
 1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.04 tests/s, 0.08 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -134,17 +234,42 @@ Finished in 25.147286 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod_dt ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod_dt
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_dt
 Started
-.
+E
+===============================================================================
+Error: test_login_to_scene_hod_dt(LoginToSceneHodDT)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_dt.rb:40:in `test_login_to_scene_hod_dt'
+     37:     @driver.find_element(:xpath, "//div[text() = 'Operational Reports']").click
+     38:     sleep (4)
+     39: 	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time By Hour of Day']").click
+  => 40: @driver.find_element(:xpath, "//div[@id='content']/div[2]/div/table/tbody/tr[8]/td[9]").click
+     41:     sleep (4)
+     42: @driver.find_element(:xpath, "//div[@id='detail-root']/div[3]/div/div").click
+     43:     sleep (4)
+===============================================================================
 
-Finished in 42.339777 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 56.802467 seconds.
 
-0.02 tests/s, 0.05 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.04 assertions/s
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
@@ -153,17 +278,42 @@ Finished in 42.339777 seconds.
 ...........................................................................................
  
  ****** EXECUTING TEST: login_to_scene_hod_filters ******  
-Loaded suite C:/Smoke/Wonderland/ByTemplate/hourofday/login_to_scene_hod_filters
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_filters
 Started
-.
+E
+===============================================================================
+Error: test_login_to_scene_hod_dt(LoginToSceneHodDT)
+  Selenium::WebDriver::Error::NoSuchElementError: no such element
+    (Session info: chrome=36.0.1985.125)
+    (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64)
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:580:in `find_element_by'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/search_context.rb:42:in `find_element'
+C:/Analytics/AutomatedTesting/DevEnv/Wonderland/ByTemplate/hourofday/login_to_scene_hod_filters.rb:43:in `test_login_to_scene_hod_dt'
+     40: 	sleep (4)
+     41:    @driver.find_element(:css, "div.icon").click
+     42: 	sleep (4)
+  => 43:     @driver.find_element(:css, "div.add-filter-row.ng-scope").click
+     44:     sleep (4)
+     45:     @driver.find_element(:css, "span.k-input").click	
+     46:     sleep (4)
+===============================================================================
 
-Finished in 102.960262 seconds.
 
-1 tests, 2 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 64.532036 seconds.
 
-0.01 tests/s, 0.02 assertions/s
-******  TEST COMPLETE  08/04/2014 @ 19:07  ****** 
+1 tests, 2 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.02 tests/s, 0.03 assertions/s
+******  TEST COMPLETE  08/17/2014 @ 19:07  ****** 
  
 ...........................................................................................
  
