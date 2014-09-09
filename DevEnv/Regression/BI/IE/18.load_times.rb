@@ -13,7 +13,7 @@ def setup
     @driver.manage.timeouts.implicit_wait = 30
   end
   
-def wait_for(seconds=30)
+def wait_for(seconds=60)
   Selenium::WebDriver::Wait.new(:timeout => seconds).until { yield }
 end
   

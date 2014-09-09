@@ -15,7 +15,7 @@ def setup
     @driver.manage.timeouts.implicit_wait = 30
   end
   
-def wait_for(seconds=30)
+def wait_for(seconds=60)
   Selenium::WebDriver::Wait.new(:timeout => seconds).until { yield }
 end
   
@@ -141,7 +141,7 @@ end
 	
 	@driver.find_element(:xpath, "//li[2]/label").click
 	@driver.find_element(:xpath, "(//input[@type='text'])[4]").clear
-	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Average Chute Time -automation"
+	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Average Chute Time -automation ff"
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").clear
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").send_keys "automated"
 	@driver.find_element(:xpath, "//div[6]/div/div/div[4]/div[2]").click
@@ -153,8 +153,8 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
 
-    wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time -automation']") }
-	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time -automation']").click	
+    wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time -automation ff']") }
+	@driver.find_element(:xpath, "//div[text() = 'Average Chute Time -automation ff']").click	
 	
 	wait_for { displayed?(:xpath, "//td[15]") }
 	@driver.find_element(:xpath, "//td[15]").click

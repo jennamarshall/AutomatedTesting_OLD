@@ -58,9 +58,7 @@ end
 	
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Name (Bar)']") }
 	@driver.find_element(:xpath, "//div[text() = 'Transports by Destination Name (Bar)']").click
-	
-	time1 = Time.now.getutc
-	
+		
 	wait_for { displayed?(:css, "div.label.ng-binding") }
 	@driver.find_element(:css, "div.label.ng-binding").click	
 	
@@ -70,15 +68,6 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '3,076']") }
 	
-	time2 = Time.now.getutc
-	puts " "
-	puts "********************************************************************************************************"
-	time3 = (time2-time1)
-	puts "Load Time:  Transports by Destination Name (Bar): "+ time3.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
-
 	wait_for { displayed?(:css, "li > span") }
 	@driver.find_element(:css, "li > span").click
 
@@ -155,6 +144,7 @@ end
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
+	wait_for { displayed?(:xpath, "//a") }
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
