@@ -110,10 +110,10 @@ end
 
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '1,639']") }
-
 	
 	@driver.find_element(:xpath, "//td[15]").click
-
+	
+	
 	wait_for { displayed?(:xpath, "//td/a") }
 	@driver.find_element(:xpath, "//td/a").click
 
@@ -139,20 +139,21 @@ end
 	
 	@driver.find_element(:xpath, "//li[2]/label").click
 	@driver.find_element(:xpath, "(//input[@type='text'])[4]").clear
-	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Transports by Destination Name -automation ff"
+	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Transports by Destination Name -automation"
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").clear
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").send_keys "automated"
 	@driver.find_element(:xpath, "//div[6]/div/div/div[4]/div[2]").click
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
-	@driver.find_element(:xpath, "//a").click
-
+	wait_for { displayed?(:link, "a") }
+	@driver.find_element(:link, "a").click
+	
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
 
-    wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Name -automation ff']") }
-	@driver.find_element(:xpath, "//div[text() = 'Transports by Destination Name -automation ff']").click	
+    wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Name -automation']") }
+	@driver.find_element(:xpath, "//div[text() = 'Transports by Destination Name -automation']").click	
 	
 	wait_for { displayed?(:xpath, "//td[15]") }
 	@driver.find_element(:xpath, "//td[15]").click
@@ -176,11 +177,12 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '1,639']") }
 	
-	sleep (2)
+	
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
+
+		wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click

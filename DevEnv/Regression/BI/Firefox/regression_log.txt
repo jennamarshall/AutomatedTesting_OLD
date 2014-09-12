@@ -1,6 +1,53 @@
+@ 09122014:0705  
+ 
+ 
+...........................................................................................
+ 
+   ** Begin Test : Performance Load Times    **  
+ 
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/18.load_times
+Started
+Load Time is measured in seconds
+Load Time measures time from report name click to last element loads on initial report page
+Tested for BI Agency on devdb5 environment
+Tests executed in Google Chrome
+ 
+ 
+ 
+Load Time: Average Chute Time: 1.909322
+Load Time: Average Chute Time By Hour of Day: 2.310707
+Load Time: Average Chute Time By Unit: 2.099346
+Load Time: Average Response Time: 2.346747
+Load Time: Average Response Time By Hour of Day: 2.749568
+Load Time: Average Response Time By Unit: 2.535254
+Load Time: Average Scene Time: 2.409375
+Load Time: Average Scene Time By Hour of Day: 3.080731
+Load Time: Average Scene Time By Unit: 2.782654
+Load Time: Average Turn Around Time: 2.557847
+Load Time: Average Turn Around Time By Hour of Day: 2.68552
+Load Time: Average Turn Around Time By Unit: 2.963038
+Load Time: Transports by Destination Name: 0.521542
+Load Time: Transports by Destination Type: 0.662785
+Load Time: Transports by Destination Name (Bar): 0.797928
+Load Time: Transports by Destination Type (Bar): 0.82001
+.
+
+Finished in 64.885412 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.02 tests/s, 0.02 assertions/s
+ 
+ 
+...........................................................................................
+ 
+ 
+ 
 ...........................................................................................
  
 All of the following regression tests execute the following verifications:  
+ 
 1.   Initial load of the report
 2.   Initial verification of gem calculations
 3.   Changing of date range
@@ -17,45 +64,43 @@ All of the following regression tests execute the following verifications:
 14.  Menu navigation
 15.  Adding/Removing from Favorites
 16.  Deleting saved reports
+17.  Trendline configuration
  
 ...........................................................................................
-...........................................................................................
  
- **  Begin Test #  1: Login to Navigator **   
+   ** Begin Test #  1: Login to Navigator   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/1.login_to_navigator
 Started
 .
 
-Finished in 11.106423 seconds.
+Finished in 14.860058 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
-0.09 tests/s, 0.09 assertions/s
- 
-**   End Test @ 09092014:0919  **  
- 
-...........................................................................................
- 
+0.07 tests/s, 0.07 assertions/s
  
  
 ...........................................................................................
  
- **  Begin Test #  2: Average Chute Time Report - Regression **   
+ 
+ 
+...........................................................................................
+ 
+   ** Begin Test #  2: Average Chute Time Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/2.average_chute_time
 Started
 .
 
-Finished in 46.043026 seconds.
+Finished in 45.241814 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -63,20 +108,19 @@ Finished in 46.043026 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  3: Average Chute Time By Unit Report - Regression **   
+   ** Begin Test #  3: Average Chute Time By Unit Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/3.average_chute_time_by_unit
 Started
 .
 
-Finished in 65.156572 seconds.
+Finished in 40.455062 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -84,20 +128,19 @@ Finished in 65.156572 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  4: Average Chute Time By Hour of Day Report - Regression **   
+   ** Begin Test #  4: Average Chute Time By Hour of Day Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/4.average_chute_time_by_hour_of_day
 Started
 .
 
-Finished in 48.828272 seconds.
+Finished in 40.005847 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -105,20 +148,53 @@ Finished in 48.828272 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  5: Average Response Time - Regression **   
+   ** Begin Test #  5: Average Response Time - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time
 Started
-.
+E
+===============================================================================
+Error: test_login_to_response(LoginToResponse)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2120-1pe1oyg/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2120-1pe1oyg/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2120-1pe1oyg/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2120-1pe1oyg/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2120-1pe1oyg/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time.rb:213:in `block in test_login_to_response'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/5.average_response_time.rb:213:in `test_login_to_response'
+     210: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     211: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     212: 	
+  => 213: 	wait_for { displayed?(:css, "a.dropdown-toggle") }
+     214: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     215: 	wait_for { displayed?(:link, "Add to Favorites") }
+     216: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 57.6671 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 39.166865 seconds.
 
-0.02 tests/s, 0.02 assertions/s
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -126,41 +202,39 @@ Finished in 57.6671 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  6: Average Response Time By Unit Report - Regression **   
+   ** Begin Test #  6: Average Response Time By Unit Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/6.average_response_time_by_unit
 Started
 .
 
-Finished in 52.133108 seconds.
+Finished in 38.776455 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
-0.02 tests/s, 0.02 assertions/s
- 
-**   End Test @ 09092014:0919  **  
- 
-...........................................................................................
- 
+0.03 tests/s, 0.03 assertions/s
  
  
 ...........................................................................................
  
- **  Begin Test #  7: Average Response Time By Hour of Day Report - Regression **   
+ 
+ 
+...........................................................................................
+ 
+   ** Begin Test #  7: Average Response Time By Hour of Day Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/7.average_response_time_by_hour_of_day
 Started
 .
 
-Finished in 52.587019 seconds.
+Finished in 40.108321 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -168,20 +242,53 @@ Finished in 52.587019 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  8: Average Scene Time - Regression **   
+   ** Begin Test #  8: Average Scene Time - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time
 Started
-.
+E
+===============================================================================
+Error: test_login_to_Scene(LoginToScene)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2652-1ev0ml8/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2652-1ev0ml8/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2652-1ev0ml8/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2652-1ev0ml8/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2652-1ev0ml8/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time.rb:213:in `block in test_login_to_Scene'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/8.average_scene_time.rb:213:in `test_login_to_Scene'
+     210: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     211: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     212: 	
+  => 213: 	wait_for { displayed?(:css, "a.dropdown-toggle") }
+     214: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     215: 	wait_for { displayed?(:link, "Add to Favorites") }
+     216: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 42.573949 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 39.256066 seconds.
 
-0.02 tests/s, 0.02 assertions/s
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -189,20 +296,20 @@ Finished in 42.573949 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  9: Average Scene Time By Unit Report - Regression **   
+   ** Begin Test #  9: Average Scene Time By Unit Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit
 Started
 E
 ===============================================================================
-Error: test_login_to_Scene_by_unit(LoginToSceneByUnit)
+Error: test_login_to_scene_by_unit(LoginToSceneByUnit)
   Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
 [remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
-[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140909-8840-8z45vc/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
-[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140909-8840-8z45vc/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
-[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140909-8840-8z45vc/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
-[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140909-8840-8z45vc/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
-[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140909-8840-8z45vc/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7340-18hjpud/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7340-18hjpud/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7340-18hjpud/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7340-18hjpud/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7340-18hjpud/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
@@ -214,50 +321,82 @@ C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdr
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
 C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:22:in `displayed?'
-C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:115:in `block in test_login_to_Scene_by_unit'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:189:in `block in test_login_to_scene_by_unit'
 C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:18:in `block in wait_for'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
 C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:18:in `wait_for'
-C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:115:in `test_login_to_Scene_by_unit'
-     112: 	
-     113: 	@driver.find_element(:xpath, "//td[14]").click
-     114: 
-  => 115: 	wait_for { displayed?(:xpath, "//a/span") }
-     116: 	@driver.find_element(:xpath, "//a/span").click
-     117: 
-     118: 	wait_for { displayed?(:css, "button.viewPCR") }
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/9.average_scene_time_by_unit.rb:189:in `test_login_to_scene_by_unit'
+     186: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     187: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     188: 	
+  => 189: 	wait_for { displayed?(:css, "a.dropdown-toggle") }	
+     190: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     191: 	
+     192: 	wait_for { displayed?(:link, "Add to Favorites") }
 ===============================================================================
 
 
-Finished in 25.092198 seconds.
+Finished in 38.195841 seconds.
 
 1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
 0% passed
 
-0.04 tests/s, 0.04 assertions/s
- 
-**   End Test @ 09092014:0919  **  
- 
-...........................................................................................
- 
+0.03 tests/s, 0.03 assertions/s
  
  
 ...........................................................................................
  
- **  Begin Test #  10: Average Scene Time By Hour of Day Report - Regression **   
+ 
+ 
+...........................................................................................
+ 
+   ** Begin Test #  10: Average Scene Time By Hour of Day Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day
 Started
-.
+E
+===============================================================================
+Error: test_login_to_Scene_by_hour_of_day(LoginToSceneByHourOfDay)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2924-4ooc0q/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2924-4ooc0q/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2924-4ooc0q/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2924-4ooc0q/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2924-4ooc0q/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day.rb:189:in `block in test_login_to_Scene_by_hour_of_day'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/10.average_scene_time_by_hour_of_day.rb:189:in `test_login_to_Scene_by_hour_of_day'
+     186: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     187: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     188: 	
+  => 189: 	wait_for { displayed?(:css, "a.dropdown-toggle") }
+     190: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     191: 	wait_for { displayed?(:link, "Add to Favorites") }
+     192: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 46.959686 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 37.966596 seconds.
 
-0.02 tests/s, 0.02 assertions/s
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -265,20 +404,53 @@ Finished in 46.959686 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  11: Average Turn Around Time - Regression **   
+   ** Begin Test #  11: Average Turn Around Time - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time
 Started
-.
+E
+===============================================================================
+Error: test_login_to_Turn_Around(LoginToTurnAround)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7248-1ugezgp/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7248-1ugezgp/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7248-1ugezgp/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7248-1ugezgp/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-7248-1ugezgp/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time.rb:213:in `block in test_login_to_Turn_Around'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/11.average_turn_around_time.rb:213:in `test_login_to_Turn_Around'
+     210: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     211: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     212: 	
+  => 213: 	wait_for { displayed?(:css, "a.dropdown-toggle") }
+     214: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     215: 	wait_for { displayed?(:link, "Add to Favorites") }
+     216: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 51.396342 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 39.742813 seconds.
 
-0.02 tests/s, 0.02 assertions/s
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -286,20 +458,19 @@ Finished in 51.396342 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  12: Average Turn Around Time By Unit - Regression **   
+   ** Begin Test #  12: Average Turn Around Time By Unit - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/12.average_turn_around_time_by_unit
 Started
 .
 
-Finished in 49.594359 seconds.
+Finished in 40.233145 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -307,20 +478,19 @@ Finished in 49.594359 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  13: Average Turn Around Time By Hour of Day Report - Regression **   
+   ** Begin Test #  13: Average Turn Around Time By Hour of Day Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/13.average_turn_around_time_by_hour_of_day
 Started
 .
 
-Finished in 53.158907 seconds.
+Finished in 41.463991 seconds.
 
 1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
 100% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -328,20 +498,52 @@ Finished in 53.158907 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  14: Transports By Destination Name Report - Regression **   
+   ** Begin Test #  14: Transports By Destination Name Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name
 Started
-.
+E
+===============================================================================
+Error: test_LoginToTransportsByDestinationName(LoginToTransportsByDestinationName)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element not found in the cache - perhaps the page has changed since it was looked up
+[remote server] resource://fxdriver/modules/web_element_cache.js:8180:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2604-1xj7e18/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2604-1xj7e18/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2604-1xj7e18/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-2604-1xj7e18/extensions/fxdriver@googlecode.com/components/command_processor.js:407:5:in `fxdriver.Timer.prototype.setTimeout/<.notify'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name.rb:23:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name.rb:185:in `block in test_LoginToTransportsByDestinationName'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name.rb:19:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name.rb:19:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/14.transports_by_destination_name.rb:185:in `test_LoginToTransportsByDestinationName'
+     182: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     183: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     184: 
+  => 185: 		wait_for { displayed?(:css, "a.dropdown-toggle") }
+     186: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     187: 	wait_for { displayed?(:link, "Add to Favorites") }
+     188: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 45.963897 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 65.611112 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -349,20 +551,52 @@ Finished in 45.963897 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  15: Transports By Destination Type Report - Regression **   
+   ** Begin Test #  15: Transports By Destination Type Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type
 Started
-.
+E
+===============================================================================
+Error: test_LoginToTransportsByDestinationType(LoginToTransportsByDestinationType)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element not found in the cache - perhaps the page has changed since it was looked up
+[remote server] resource://fxdriver/modules/web_element_cache.js:8180:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-1592-132jysb/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-1592-132jysb/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-1592-132jysb/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-1592-132jysb/extensions/fxdriver@googlecode.com/components/command_processor.js:407:5:in `fxdriver.Timer.prototype.setTimeout/<.notify'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type.rb:23:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type.rb:186:in `block in test_LoginToTransportsByDestinationType'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type.rb:19:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type.rb:19:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/15.transports_by_destination_type.rb:186:in `test_LoginToTransportsByDestinationType'
+     183: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     184: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     185: 	
+  => 186: 		wait_for { displayed?(:css, "a.dropdown-toggle") }
+     187: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     188: 	wait_for { displayed?(:link, "Add to Favorites") }
+     189: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 41.020162 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 64.802112 seconds.
+
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
 
 0.02 tests/s, 0.02 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -370,20 +604,53 @@ Finished in 41.020162 seconds.
  
 ...........................................................................................
  
- **  Begin Test #  16: Transports By Destination Name (Bar) Report - Regression **   
+   ** Begin Test #  16: Transports By Destination Name (Bar) Report - Regression   **  
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar
 Started
-.
+E
+===============================================================================
+Error: test_login_to_transports_by_destination_name_bar(LoginToTransportsByDestinationNameBar)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6196-12abvwi/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6196-12abvwi/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6196-12abvwi/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6196-12abvwi/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6196-12abvwi/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar.rb:172:in `block in test_login_to_transports_by_destination_name_bar'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/16.transports_by_destination_name_bar.rb:172:in `test_login_to_transports_by_destination_name_bar'
+     169: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     170: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     171: 	
+  => 172: 		wait_for { displayed?(:css, "a.dropdown-toggle") }
+     173: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     174: 	wait_for { displayed?(:link, "Add to Favorites") }
+     175: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 51.789242 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 36.825071 seconds.
 
-0.02 tests/s, 0.02 assertions/s
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
+
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  
@@ -394,141 +661,49 @@ Finished in 51.789242 seconds.
  
 Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar
 Started
-.
+E
+===============================================================================
+Error: test_login_to_transports_by_destination_Type_bar(LoginToTransportsByDestinationTypeBar)
+  Selenium::WebDriver::Error::StaleElementReferenceError: Element is no longer attached to the DOM
+[remote server] resource://fxdriver/modules/web_element_cache.js:8183:5:in `fxdriver.cache.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6448-1jtl1he/extensions/fxdriver@googlecode.com/components/command_processor.js:7783:3:in `Utils.getElementAt'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6448-1jtl1he/extensions/fxdriver@googlecode.com/components/command_processor.js:10978:1:in `WebElement.isElementDisplayed'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6448-1jtl1he/extensions/fxdriver@googlecode.com/components/command_processor.js:11455:11:in `DelayedCommand.prototype.executeInternal_/h'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6448-1jtl1he/extensions/fxdriver@googlecode.com/components/command_processor.js:11460:7:in `DelayedCommand.prototype.executeInternal_'
+[remote server] file:///C:/Users/Jenna/AppData/Local/Temp/webdriver-profile20140912-6448-1jtl1he/extensions/fxdriver@googlecode.com/components/command_processor.js:11402:5:in `DelayedCommand.prototype.execute/<'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:51:in `assert_ok'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:634:in `raw_execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:612:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/remote/bridge.rb:553:in `isElementDisplayed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/element.rb:171:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar.rb:22:in `displayed?'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar.rb:173:in `block in test_login_to_transports_by_destination_Type_bar'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar.rb:18:in `block in wait_for'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.42.0/lib/selenium/webdriver/common/wait.rb:39:in `until'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar.rb:18:in `wait_for'
+C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/17.transports_by_destination_type_bar.rb:173:in `test_login_to_transports_by_destination_Type_bar'
+     170: 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+     171: 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+     172: 	
+  => 173: 		wait_for { displayed?(:css, "a.dropdown-toggle") }
+     174: 	@driver.find_element(:css, "a.dropdown-toggle").click
+     175: 	wait_for { displayed?(:link, "Add to Favorites") }
+     176: 	@driver.find_element(:link, "Add to Favorites").click
+===============================================================================
 
-Finished in 43.911361 seconds.
 
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
+Finished in 35.155667 seconds.
 
-0.02 tests/s, 0.02 assertions/s
- 
-**   End Test @ 09092014:0919  **  
- 
-...........................................................................................
- 
- 
- 
-...........................................................................................
- 
- **  Begin Test #  18: Performance Load Times - Regression **   
- 
-Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Firefox/18.load_times
-Started
- 
-********************************************************************************************************
-Load Time is measured in seconds
-Load Time measures time from report name click to last element loads on initial report page
-Tested for BI Agency on devdb5 environment
-Tests executed in Google Chrome
-********************************************************************************************************
- 
- 
-********************************************************************************************************
-Load Time: Average Chute Time: 1.970994
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Chute Time By Hour of Day: 2.249781
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Chute Time By Unit: 2.108077
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Response Time: 2.36579
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Response Time By Hour of Day: 2.892965
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Response Time By Unit: 2.764304
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Scene Time: 2.582199
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Scene Time By Hour of Day: 2.67367
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Scene Time By Unit: 3.005998
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Turn Around Time: 2.66477
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Turn Around Time By Hour of Day: 2.889905
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Average Turn Around Time By Unit: 2.921191
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Transports by Destination Name: 0.623231
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Transports by Destination Type: 0.633539
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Transports by Destination Name (Bar): 0.935762
-********************************************************************************************************
- 
- 
- 
-********************************************************************************************************
-Load Time: Transports by Destination Type (Bar): 0.833149
-********************************************************************************************************
- 
- 
-.
+1 tests, 1 assertions, 0 failures, 1 errors, 0 pendings, 0 omissions, 0 notifications
+0% passed
 
-Finished in 67.949044 seconds.
-
-1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
-100% passed
-
-0.01 tests/s, 0.01 assertions/s
+0.03 tests/s, 0.03 assertions/s
  
-**   End Test @ 09092014:0919  **  
  
 ...........................................................................................
  

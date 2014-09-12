@@ -3,9 +3,26 @@ set d=%d: =@ %
 set t=%time:~0,2%%time:~3,2%
 set t=%t: =0%
 
-echo ...........................................................................................> regression_log.txt
+echo %d%:%t% > regression_log.txt 
+echo/ >> regression_log.txt
+echo/ >> regression_log.txt
+
+echo ...........................................................................................>> regression_log.txt
+echo/ >> regression_log.txt
+echo    ** Begin Test : Performance Load Times    **  >> regression_log.txt
+echo/ >> regression_log.txt
+18.load_times>> regression_log.txt
+echo/ >> regression_log.txt
+echo/ >> regression_log.txt
+echo ...........................................................................................>> regression_log.txt
+echo/ >> regression_log.txt
+echo/ >> regression_log.txt
+echo/ >> regression_log.txt
+
+echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
 echo All of the following regression tests execute the following verifications:  >> regression_log.txt
+echo/ >> regression_log.txt
 echo 1.   Initial load of the report>> regression_log.txt
 echo 2.   Initial verification of gem calculations>> regression_log.txt
 echo 3.   Changing of date range>> regression_log.txt
@@ -22,6 +39,7 @@ echo 13.  Saved report functionality>> regression_log.txt
 echo 14.  Menu navigation>> regression_log.txt
 echo 15.  Adding/Removing from Favorites>> regression_log.txt
 echo 16.  Deleting saved reports>> regression_log.txt
+echo 17.  Trendline configuration>> regression_log.txt
 echo/ >> regression_log.txt
 
 
@@ -31,7 +49,6 @@ echo    ** Begin Test #  1: Login to Navigator   **  >> regression_log.txt
 echo/ >> regression_log.txt
 1.login_to_navigator  >> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -44,7 +61,6 @@ echo    ** Begin Test #  2: Average Chute Time Report - Regression   **  >> regr
 echo/ >> regression_log.txt
 2.average_chute_time >> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -57,7 +73,6 @@ echo    ** Begin Test #  3: Average Chute Time By Unit Report - Regression   ** 
 echo/ >> regression_log.txt
 3.average_chute_time_by_unit >> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -70,7 +85,6 @@ echo    ** Begin Test #  4: Average Chute Time By Hour of Day Report - Regressio
 echo/ >> regression_log.txt
 4.average_chute_time_by_hour_of_day>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -83,7 +97,6 @@ echo    ** Begin Test #  5: Average Response Time - Regression   **  >> regressi
 echo/ >> regression_log.txt
 5.average_response_time>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -96,7 +109,6 @@ echo    ** Begin Test #  6: Average Response Time By Unit Report - Regression   
 echo/ >> regression_log.txt
 6.average_response_time_by_unit>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -109,7 +121,6 @@ echo    ** Begin Test #  7: Average Response Time By Hour of Day Report - Regres
 echo/ >> regression_log.txt
 7.average_response_time_by_hour_of_day>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -122,7 +133,6 @@ echo    ** Begin Test #  8: Average Scene Time - Regression   **  >> regression_
 echo/ >> regression_log.txt
 8.average_scene_time>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -135,7 +145,6 @@ echo    ** Begin Test #  9: Average Scene Time By Unit Report - Regression   ** 
 echo/ >> regression_log.txt
 9.average_scene_time_by_unit>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -148,7 +157,6 @@ echo    ** Begin Test #  10: Average Scene Time By Hour of Day Report - Regressi
 echo/ >> regression_log.txt
 10.average_scene_time_by_hour_of_day>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -161,7 +169,6 @@ echo    ** Begin Test #  11: Average Turn Around Time - Regression   **  >> regr
 echo/ >> regression_log.txt
 11.average_turn_around_time>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -175,7 +182,6 @@ echo    ** Begin Test #  12: Average Turn Around Time By Unit - Regression   ** 
 echo/ >> regression_log.txt
 12.average_turn_around_time_by_unit>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -188,7 +194,6 @@ echo    ** Begin Test #  13: Average Turn Around Time By Hour of Day Report - Re
 echo/ >> regression_log.txt
 13.average_turn_around_time_by_hour_of_day>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -201,7 +206,6 @@ echo    ** Begin Test #  14: Transports By Destination Name Report - Regression 
 echo/ >> regression_log.txt
 14.transports_by_destination_name>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -214,7 +218,6 @@ echo    ** Begin Test #  15: Transports By Destination Type Report - Regression 
 echo/ >> regression_log.txt
 15.transports_by_destination_type>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -227,7 +230,6 @@ echo    ** Begin Test #  16: Transports By Destination Name (Bar) Report - Regre
 echo/ >> regression_log.txt
 16.transports_by_destination_name_bar>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -239,20 +241,6 @@ echo/ >> regression_log.txt
 echo/ >> regression_log.txt
 17.transports_by_destination_type_bar>> regression_log.txt
 echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
-echo/ >> regression_log.txt
-echo ...........................................................................................>> regression_log.txt
-echo/ >> regression_log.txt
-echo/ >> regression_log.txt
-echo/ >> regression_log.txt
-
-echo ...........................................................................................>> regression_log.txt
-echo/ >> regression_log.txt
-echo    ** Begin Test #  18: Performance Load Times - Regression   **  >> regression_log.txt
-echo/ >> regression_log.txt
-18.load_times>> regression_log.txt
-echo/ >> regression_log.txt
-echo   **  End Test %d%:%t%    ** >> regression_log.txt
 echo/ >> regression_log.txt
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
@@ -260,4 +248,6 @@ echo/ >> regression_log.txt
 echo/ >> regression_log.txt
 
 
-sendEmail -f esoanalyticsqa@gmail.com -t jenna.wakeley@esosolutions.com;richard.hale@esosolutions.com -s smtp.gmail.com:587 -xu esoanalyticsqa@gmail.com -xp .admin77.  -u "Results:  Daily Analytics Operational Tests Regression" -m "Howdy Partner, attached are the results of the Daily Analytics Smoke Tests.  These tests were executed in the latest version of Google Chrome against the HotFix Environment on DevDb5" -o tls=yes -a "C:\Analytics\AutomatedTesting\DevEnv\Regression\BI\Chrome\regression_log.txt" 
+
+
+sendEmail -f esoanalyticsqa@gmail.com -t jenna.wakeley@esosolutions.com;richard.hale@esosolutions.com -s smtp.gmail.com:587 -xu esoanalyticsqa@gmail.com -xp .admin77.  -u "Results:  Daily Analytics Performance and Regression Tests" -m "Howdy Partner, attached are the results of the Daily Analytics Smoke Tests.  These tests were executed in the latest version of Google Chrome against the HotFix Environment on DevDb5" -o tls=yes -a "C:\Analytics\AutomatedTesting\DevEnv\Regression\BI\Chrome\regression_log.txt" 

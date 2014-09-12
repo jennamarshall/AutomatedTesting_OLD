@@ -89,6 +89,7 @@ end
 	
 	wait_for { displayed?(:xpath, "//td/div/div/div[4]/div/div") }
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
+	
 	wait_for { displayed?(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]") }
     @driver.find_element(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]").click
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
@@ -119,7 +120,6 @@ end
 	@driver.page_source.include? 'EMS'
 	@driver.find_element(:xpath, "//div[3]/div/div/div/button").click
 
-	
 	wait_for { displayed?(:xpath, "//td[2]/section/footer/button") }
 	@driver.find_element(:xpath, "//td[2]/section/footer/button").click
 	sleep (3)
@@ -127,7 +127,6 @@ end
 	sleep (3)
 	@driver.find_element(:xpath, "//div[3]/div/div/div/button").click
 
-	
 	wait_for { displayed?(:xpath, "//a[contains(text(),'a')]") }
 	@driver.find_element(:xpath, "//a[contains(text(),'a')]").click
 	
@@ -145,11 +144,12 @@ end
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
-	wait_for { displayed?(:xpath, "//a") }
-	@driver.find_element(:xpath, "//a").click
-	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
+	wait_for { displayed?(:xpath, "//a[contains(text(),'a')]") }
+	@driver.find_element(:xpath, "//a[contains(text(),'a')]").click
+	
+	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']")	}
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
+	
 	wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Unit -automation']") }
 	@driver.find_element(:xpath, "//div[text() = 'Average Turn Around Time By Unit -automation']").click	
 
@@ -181,12 +181,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '809']") }
 	
-	sleep (2)
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
+	
+	wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
+	
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click
 	@driver.find_element(:css, "b.caret").click

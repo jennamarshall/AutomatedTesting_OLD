@@ -114,6 +114,7 @@ end
 	
 	@driver.find_element(:xpath, "//td[15]").click
 
+	
 	wait_for { displayed?(:xpath, "//td/a") }
 	@driver.find_element(:xpath, "//td/a").click
 
@@ -146,8 +147,8 @@ end
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
-	wait_for { displayed?(:xpath, "//a") }
-	@driver.find_element(:xpath, "//a").click
+	wait_for { displayed?(:link, "a") }
+	@driver.find_element(:link, "a").click
 
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
@@ -177,11 +178,12 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '1,639']") }
 	
-	sleep (2)
+	
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
+	
+		wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click

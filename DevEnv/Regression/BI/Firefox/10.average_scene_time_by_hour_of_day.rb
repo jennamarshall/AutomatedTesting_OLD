@@ -89,8 +89,8 @@ end
 	
 	wait_for { displayed?(:xpath, "//td/div/div/div[4]/div/div") }
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
+	
 	wait_for { displayed?(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]") }
-
     @driver.find_element(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]").click
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
     @driver.find_element(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[11]").click
@@ -120,7 +120,6 @@ end
 	@driver.page_source.include? 'EMS'
 	@driver.find_element(:xpath, "//div[3]/div/div/div/button").click
 
-	
 	wait_for { displayed?(:xpath, "//td[2]/section/footer/button") }
 	@driver.find_element(:xpath, "//td[2]/section/footer/button").click
 	sleep (3)
@@ -128,7 +127,6 @@ end
 	sleep (3)
 	@driver.find_element(:xpath, "//div[3]/div/div/div/button").click
 
-	
 	wait_for { displayed?(:xpath, "//a[contains(text(),'a')]") }
 	@driver.find_element(:xpath, "//a[contains(text(),'a')]").click
 	
@@ -139,19 +137,21 @@ end
 	
 	@driver.find_element(:xpath, "//li[2]/label").click
 	@driver.find_element(:xpath, "(//input[@type='text'])[4]").clear
-	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Average Scene Time by Hour of Day -automation ff"
+	@driver.find_element(:xpath, "(//input[@type='text'])[4]").send_keys "Average Scene Time by Hour of Day -automation"
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").clear
 	@driver.find_element(:xpath, "(//input[@type='text'])[5]").send_keys "automated"
 	@driver.find_element(:xpath, "//div[6]/div/div/div[4]/div[2]").click
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
-	@driver.find_element(:xpath, "//a").click
+	wait_for { displayed?(:link, "a") }
+	@driver.find_element(:link, "a").click
+	
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
-	wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time by Hour of Day -automation ff']") }
-	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time by Hour of Day -automation ff']").click	
+	
+	wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time by Hour of Day -automation']") }
+	@driver.find_element(:xpath, "//div[text() = 'Average Scene Time by Hour of Day -automation']").click	
 
 	wait_for { displayed?(:xpath, "//div[text() = '14:00']") }
 	wait_for { displayed?(:xpath, "//div[text() = '82%']") }
@@ -160,6 +160,7 @@ end
 	
 	wait_for { displayed?(:xpath, "//td[14]") }
 	@driver.find_element(:xpath, "//td[14]").click
+	
 	wait_for { displayed?(:xpath, "//a[contains(text(),'a')]") }
 	@driver.find_element(:xpath, "//a[contains(text(),'a')]").click
 
@@ -181,11 +182,11 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '810']") }
 	
-	sleep (2)
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
-	sleep (2)
+	
+	wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click
@@ -196,7 +197,6 @@ end
 	wait_for { displayed?(:link, "Delete Report") }
 	@driver.find_element(:link, "Delete Report").click
 	@driver.find_elements(:xpath, "//button")[-1].click
-	
 	
   end
   

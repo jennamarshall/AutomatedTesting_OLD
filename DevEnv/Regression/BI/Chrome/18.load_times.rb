@@ -61,14 +61,16 @@ end
 # ##################################################################################################
 
 	time100 = Time.now.getutc
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	puts "Load Time is measured in seconds"
 	puts "Load Time measures time from report name click to last element loads on initial report page"
 	puts "Tested for BI Agency on devdb5 environment"
 	puts "Tests executed in Google Chrome"
-	puts "********************************************************************************************************"
-	puts " "
+
+puts " "
+puts " "
+puts " "
 	
 # ##################################################################################################
 
@@ -84,13 +86,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '00:13']") }
 	time2 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time3 = (time2-time1)
 	puts "Load Time: Average Chute Time: "+ time3.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 		
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time']") }
@@ -111,13 +113,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '00:13']") }
 	time5 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time6 = (time5-time4)
 	puts "Load Time: Average Chute Time By Hour of Day: "+ time6.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time By Hour of Day']") }
@@ -138,13 +140,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '00:13']") }
 	time8 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time9 = (time8-time7)
 	puts "Load Time: Average Chute Time By Unit: "+ time9.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Chute Time By Unit']") }
@@ -165,13 +167,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '06:18']") }
 	time11 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time12 = (time11-time10)
 	puts "Load Time: Average Response Time: "+ time12.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 		
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time']") }
@@ -192,13 +194,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '06:18']") }
 	time14 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time15= (time14-time13)
 	puts "Load Time: Average Response Time By Hour of Day: "+ time15.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time By Hour of Day']") }
@@ -219,13 +221,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '06:18']") }
 	time17 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time18 = (time17-time16)
 	puts "Load Time: Average Response Time By Unit: "+ time18.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time By Unit']") }
@@ -246,13 +248,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:52']") }
 	time20 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time21 = (time20-time19)
 	puts "Load Time: Average Scene Time: "+ time21.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 		
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time']") }
@@ -273,13 +275,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:52']") }
 	time23 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time24= (time23-time22)
 	puts "Load Time: Average Scene Time By Hour of Day: "+ time24.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time By Hour of Day']") }
@@ -300,13 +302,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:52']") }
 	time26 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time27 = (time26-time25)
 	puts "Load Time: Average Scene Time By Unit: "+ time27.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Scene Time By Unit']") }
@@ -327,13 +329,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:57']") }
 	time29 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time30 = (time29-time28)
 	puts "Load Time: Average Turn Around Time: "+ time30.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 		
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time']") }
@@ -354,13 +356,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:57']") }
 	time32 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time33= (time32-time31)
 	puts "Load Time: Average Turn Around Time By Hour of Day: "+ time33.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Hour of Day']") }
@@ -381,13 +383,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '13:57']") }
 	time35 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time36 = (time35-time34)
 	puts "Load Time: Average Turn Around Time By Unit: "+ time36.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Unit']") }
@@ -408,13 +410,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	time38 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time39 = (time38-time37)
 	puts "Load Time: Transports by Destination Name: "+ time39.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Name']") }
@@ -435,13 +437,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	time41 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time42 = (time41-time40)
 	puts "Load Time: Transports by Destination Type: "+ time42.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Type']") }
@@ -462,13 +464,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	time44 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time45 = (time44-time43)
 	puts "Load Time: Transports by Destination Name (Bar): "+ time45.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Name (Bar)']") }
@@ -485,13 +487,13 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	time47 = Time.now.getutc
 
-	puts " "
-	puts "********************************************************************************************************"
+
+
 	time48 = (time47-time46)
 	puts "Load Time: Transports by Destination Type (Bar): "+ time48.to_s
-	puts "********************************************************************************************************"
-	puts " "
-	puts " "
+
+
+
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Type (Bar)']") }

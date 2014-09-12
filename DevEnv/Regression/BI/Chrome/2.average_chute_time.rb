@@ -36,8 +36,7 @@ end
   def teardown
     assert_equal [], @verification_errors
     @driver.quit
-  end
-  
+  end  
   
   def test_login_to_chute
     @driver.get(@base_url)
@@ -69,7 +68,7 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = '91%']") }
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '4,210']") }
-
+	
 	wait_for { displayed?(:css, "li > span") }
 	@driver.find_element(:css, "li > span").click
 
@@ -90,7 +89,6 @@ end
 	wait_for { displayed?(:xpath, "//td/div/div/div[4]/div/div") }
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
 
-	wait_for { displayed?(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]") }
 	wait_for { displayed?(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]") }
     @driver.find_element(:xpath, "//ul[@id='multiselect-combo-2-1_listbox']/li[10]").click
     @driver.find_element(:xpath, "//td/div/div/div[4]/div/div").click
@@ -145,8 +143,8 @@ end
 	@driver.find_element(:xpath, "//div[8]/button[3]").click
 	
 	sleep (2)
-	wait_for { displayed?(:xpath, "//a") }
-	@driver.find_element(:xpath, "//a").click
+	wait_for { displayed?(:link, "a") }
+	@driver.find_element(:link, "a").click
 
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
@@ -173,11 +171,10 @@ end
 	@driver.find_elements(:xpath, "//button")[-1].click
 
 	wait_for { displayed?(:xpath, "//div[text() = '00:14']") }
-	wait_for { displayed?(:xpath, "//div[text() = '89%']") }
+	wait_for { displayed?(:xpath, "//div[text() = '84%']") }
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '1,028']") }
 	
-	sleep (2)	
 	@driver.find_element(:xpath, "//li[4]/label").click
 	@driver.find_element(:xpath, "//div[2]/div[8]").click
 	
@@ -213,7 +210,7 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
 	
-	sleep (2)
+	wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click
@@ -224,6 +221,7 @@ end
 	wait_for { displayed?(:link, "Delete Report") }
 	@driver.find_element(:link, "Delete Report").click
 	@driver.find_elements(:xpath, "//button")[-1].click
+	
   end
   
   def element_present?(how, what)
@@ -246,6 +244,7 @@ end
     @verification_errors << ex
   end
   
+ 
   def close_alert_and_get_its_text(how, what)
     alert = @driver.switch_to().alert()
     alert_text = alert.text

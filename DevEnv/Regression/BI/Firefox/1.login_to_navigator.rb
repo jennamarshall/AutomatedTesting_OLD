@@ -2,6 +2,15 @@ require "json"
 require "selenium-webdriver"
 gem "test-unit"
 require "test/unit"
+group :test, :development do
+  # These are the target gems of this tutorial
+  gem 'rspec-rails', '~> 2.12'
+  gem 'sauce', '~> 3.1.1'
+  gem 'sauce-connect'
+  gem 'capybara', '~> 2.0.3'
+  gem 'parallel_tests'
+end
+
 
 class LoginToNavigator < Test::Unit::TestCase
 
@@ -10,6 +19,7 @@ def setup
     @base_url = "https://devdb5.esosuite.net/EsoSuiteHotfixDaily/"
     @accept_next_alert = true
     @verification_errors = []
+    @driver.manage.timeouts.implicit_wait = 30
   end
   
 def wait_for(seconds=60)
@@ -18,9 +28,17 @@ end
   
   def displayed?(how, what)
   @driver.find_element(how, what).displayed?
-  true
-  rescue Selenium::WebDriver::Error::NoSuchElementError
-    false
+end
+
+def find_visible_element(how, what)
+	 elems = @driver.find_elements(how, what).select { |e| e.displayed? }
+	 len = elems.length
+		 if len == 0
+		  raise "No matches found."
+		 elsif len > 1
+	  raise "Ambiguous match. Found #{len} matches."
+	 end
+	 elems.first
 end
   
   def teardown
