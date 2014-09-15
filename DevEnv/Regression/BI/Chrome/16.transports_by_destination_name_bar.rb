@@ -169,7 +169,8 @@ end
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
 	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
 	
-		wait_for { displayed?(:css, "a.dropdown-toggle") }
+@driver.navigate.refresh	
+	wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	wait_for { displayed?(:link, "Add to Favorites") }
 	@driver.find_element(:link, "Add to Favorites").click

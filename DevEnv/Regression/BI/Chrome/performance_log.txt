@@ -1,0 +1,42 @@
+...........................................................................................
+ 
+   ** Begin Test : Performance Load Times    **  
+ 
+Loaded suite C:/Analytics/AutomatedTesting/DevEnv/Regression/BI/Chrome/18.load_times
+Started
+Load Time is measured in seconds
+Load Time measures time from report name click to last element loads on initial report page
+Tested for BI Agency on devdb5 environment
+Tests executed in Google Chrome
+ 
+ 
+ 
+Load Time: Average Chute Time: 5.096884
+Load Time: Average Chute Time By Hour of Day: 4.220858
+Load Time: Average Chute Time By Unit: 11.382616
+Load Time: Average Response Time: 3.394962
+Load Time: Average Response Time By Hour of Day: 3.261141
+Load Time: Average Response Time By Unit: 2.848961
+Load Time: Average Scene Time: 2.903364
+Load Time: Average Scene Time By Hour of Day: 3.01505
+Load Time: Average Scene Time By Unit: 3.310557
+Load Time: Average Turn Around Time: 8.441365
+Load Time: Average Turn Around Time By Hour of Day: 3.377291
+Load Time: Average Turn Around Time By Unit: 3.247784
+Load Time: Transports by Destination Name: 0.561489
+Load Time: Transports by Destination Type: 0.413342
+Load Time: Transports by Destination Name (Bar): 0.897951
+Load Time: Transports by Destination Type (Bar): 0.87343
+.
+
+Finished in 101.254787 seconds.
+
+1 tests, 1 assertions, 0 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+100% passed
+
+0.01 tests/s, 0.01 assertions/s
+ 
+ 
+ 
+ 
+ 

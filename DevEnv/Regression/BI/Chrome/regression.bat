@@ -9,18 +9,6 @@ echo/ >> regression_log.txt
 
 echo ...........................................................................................>> regression_log.txt
 echo/ >> regression_log.txt
-echo    ** Begin Test : Performance Load Times    **  >> regression_log.txt
-echo/ >> regression_log.txt
-18.load_times>> regression_log.txt
-echo/ >> regression_log.txt
-echo/ >> regression_log.txt
-echo ...........................................................................................>> regression_log.txt
-echo/ >> regression_log.txt
-echo/ >> regression_log.txt
-echo/ >> regression_log.txt
-
-echo ...........................................................................................>> regression_log.txt
-echo/ >> regression_log.txt
 echo All of the following regression tests execute the following verifications:  >> regression_log.txt
 echo/ >> regression_log.txt
 echo 1.   Initial load of the report>> regression_log.txt
@@ -250,4 +238,3 @@ echo/ >> regression_log.txt
 
 
 
-sendEmail -f esoanalyticsqa@gmail.com -t jenna.wakeley@esosolutions.com;richard.hale@esosolutions.com -s smtp.gmail.com:587 -xu esoanalyticsqa@gmail.com -xp .admin77.  -u "Results:  Daily Analytics Performance and Regression Tests" -m "Howdy Partner, attached are the results of the Daily Analytics Smoke Tests.  These tests were executed in the latest version of Google Chrome against the HotFix Environment on DevDb5" -o tls=yes -a "C:\Analytics\AutomatedTesting\DevEnv\Regression\BI\Chrome\regression_log.txt" 

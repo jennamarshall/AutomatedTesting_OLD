@@ -178,14 +178,15 @@ end
 	@driver.find_elements(:xpath, "//button")[-1].click
 
 	wait_for { displayed?(:xpath, "//div[text() = '06:44']") }
-	wait_for { displayed?(:xpath, "//div[text() = '69%']") }
+	wait_for { displayed?(:xpath, "//div[text() = '73%']") }
 	wait_for { displayed?(:xpath, "//div[text() = '365']") }
 	wait_for { displayed?(:xpath, "//div[text() = '965']") }
 	
 	@driver.find_element(:xpath, "//a").click
 	wait_for { displayed?(:xpath, "//div[text() = 'Agency Reports']") }
-	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click
+	@driver.find_element(:xpath, "//div[text() = 'Agency Reports']").click	
 	
+	@driver.navigate.refresh
 	wait_for { displayed?(:css, "a.dropdown-toggle") }
 	@driver.find_element(:css, "a.dropdown-toggle").click
 	

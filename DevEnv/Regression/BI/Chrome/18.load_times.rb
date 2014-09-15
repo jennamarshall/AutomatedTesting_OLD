@@ -91,6 +91,8 @@ puts " "
 	time3 = (time2-time1)
 	puts "Load Time: Average Chute Time: "+ time3.to_s
 
+puts " "
+puts " "
 
 
 		
@@ -118,7 +120,8 @@ puts " "
 	time6 = (time5-time4)
 	puts "Load Time: Average Chute Time By Hour of Day: "+ time6.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -145,7 +148,8 @@ puts " "
 	time9 = (time8-time7)
 	puts "Load Time: Average Chute Time By Unit: "+ time9.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -172,7 +176,8 @@ puts " "
 	time12 = (time11-time10)
 	puts "Load Time: Average Response Time: "+ time12.to_s
 
-
+puts " "
+puts " "
 
 		
 	@driver.navigate() .back();
@@ -199,7 +204,8 @@ puts " "
 	time15= (time14-time13)
 	puts "Load Time: Average Response Time By Hour of Day: "+ time15.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -227,7 +233,8 @@ puts " "
 	puts "Load Time: Average Response Time By Unit: "+ time18.to_s
 
 
-
+puts " "
+puts " "
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Response Time By Unit']") }
@@ -253,7 +260,8 @@ puts " "
 	time21 = (time20-time19)
 	puts "Load Time: Average Scene Time: "+ time21.to_s
 
-
+puts " "
+puts " "
 
 		
 	@driver.navigate() .back();
@@ -280,7 +288,8 @@ puts " "
 	time24= (time23-time22)
 	puts "Load Time: Average Scene Time By Hour of Day: "+ time24.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -307,7 +316,8 @@ puts " "
 	time27 = (time26-time25)
 	puts "Load Time: Average Scene Time By Unit: "+ time27.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -334,7 +344,8 @@ puts " "
 	time30 = (time29-time28)
 	puts "Load Time: Average Turn Around Time: "+ time30.to_s
 
-
+puts " "
+puts " "
 
 		
 	@driver.navigate() .back();
@@ -362,7 +373,8 @@ puts " "
 	puts "Load Time: Average Turn Around Time By Hour of Day: "+ time33.to_s
 
 
-
+puts " "
+puts " "
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Average Turn Around Time By Hour of Day']") }
@@ -388,7 +400,8 @@ puts " "
 	time36 = (time35-time34)
 	puts "Load Time: Average Turn Around Time By Unit: "+ time36.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -415,7 +428,8 @@ puts " "
 	time39 = (time38-time37)
 	puts "Load Time: Transports by Destination Name: "+ time39.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -442,7 +456,8 @@ puts " "
 	time42 = (time41-time40)
 	puts "Load Time: Transports by Destination Type: "+ time42.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -469,7 +484,8 @@ puts " "
 	time45 = (time44-time43)
 	puts "Load Time: Transports by Destination Name (Bar): "+ time45.to_s
 
-
+puts " "
+puts " "
 
 
 	@driver.navigate() .back();
@@ -493,7 +509,8 @@ puts " "
 	puts "Load Time: Transports by Destination Type (Bar): "+ time48.to_s
 
 
-
+puts " "
+puts " "
 
 	@driver.navigate() .back();
     wait_for { displayed?(:xpath, "//div[text() = 'Transports by Destination Type (Bar)']") }
